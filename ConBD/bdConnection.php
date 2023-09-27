@@ -16,7 +16,7 @@ class Connection
             $database   = 'bdweb2';
             $port       = 3306; 
             $user       = 'root';
-            $password   = 'DarkFireBD17!';
+            $password   = '';
 
             try { self::$conn = new PDO("mysql:host=$host;dbname=$database;port=$port",
                     $user, $password, $options);
